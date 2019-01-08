@@ -22,3 +22,16 @@ body {
   font-size: 1.6rem;
   background-color: #ECEFF1;
 }
+
+.card {
+  background: #444;
+  height: 15rem;
+  width: 15rem;
+}
+
+.card-container {
+  padding: 3rem;
+  display: grid;
+  grid-template-columns: repeat(5, 15rem);
+  grid-gap: 0.4rem;
+}
